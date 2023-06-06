@@ -47,14 +47,15 @@ body {
   border-radius: 4px;
   margin: 16px;
   padding: 16px;
-  width: 300px;
+  width: calc(33.3% - 32px);
+  box-sizing: border-box;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .page {
